@@ -3,7 +3,7 @@
 
 # About
 - This is a simply IT job that allows you to repair computers around your city!
-- With a very simple config to add location
+- With a very simple config to add locations
 - Optimized at 0.00ms
 
 # Required
