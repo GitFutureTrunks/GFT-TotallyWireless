@@ -15,6 +15,8 @@
 	['tw_graphiccard'] 			= {['name'] = 'tw_graphiccard', 		['label'] = 'Graphic Card',            			['weight'] = 1000,     ['type'] = 'item',      ['image'] = 'tw_graphiccard.png',     ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = false,     ['combinable'] = nil,   ['description'] = ''},
 	['tw_ssd'] 					= {['name'] = 'tw_ssd', 				['label'] = '1TB SSD',            				['weight'] = 1000,     ['type'] = 'item',      ['image'] = 'tw_ssd.png',         	['unique'] = false,     ['useable'] = true,     ['shouldClose'] = false,     ['combinable'] = nil,   ['description'] = ''},
 
+# Add images to your inventory
+
 - Add to your qb-shops/config.lua
   		["totallywireless"] = {
 			{ name = 'tw_toolbox', price = 1, amount = 10, requiredJob = { ["twit"] = 0} },
@@ -40,3 +42,7 @@
 }
 
 # Once you have done all the above step go into the config and start adding locations!!
+
+# Credits: 6xDev & GitFutureTrunks
+
+
