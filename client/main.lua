@@ -88,7 +88,7 @@ end)
 
 RegisterNetEvent("justbiz:getrandomloc")
 AddEventHandler("justbiz:getrandomloc", function()
-    local missionTarget = Config.Locations[math.random(1, #Config.Locations)]
+    local missionTarget = Config.Locations[math.random(1, #Config.Locations)] -- Change this number to how many locations you want to config :D
     TriggerEvent("justbiz:createblipandroute", missionTarget)
 end)
 
