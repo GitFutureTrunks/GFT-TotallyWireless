@@ -42,6 +42,8 @@
 }
 
 # Once you have done all the above step go into the config and start adding locations!!
+# if you want to add more locations please go to the client/main.lua line: 90 and change the number of locations
+```local missionTarget = Config.Locations[math.random(4, #Config.Locations)]```
 
 # Credits: 6xDev & GitFutureTrunks
 
